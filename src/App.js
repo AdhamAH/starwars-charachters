@@ -7,20 +7,22 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      characters: []
+      characters: [],
+      images: []
     };
   }
 
   componentDidMount() {
     fetch("https://cdn.rawgit.com/akabab/starwars-api/0.2.1/api/all.json")
       .then(response => response.json())
-      .then(characters => this.setState({ characters: characters }));
+      .then(names => this.setState({ characters: names }));
   }
 
   render() {
     return (
       <div className="App">
         <CardList characters={this.state.characters} />
+        ))}
       </div>
     );
   }
