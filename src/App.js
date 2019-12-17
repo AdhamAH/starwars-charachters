@@ -8,7 +8,7 @@ class App extends React.Component {
     super();
     this.state = {
       characters: [],
-      images: []
+      searchField: ""
     };
   }
 
@@ -21,8 +21,12 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <input
+          type="search"
+          placeholder="search character"
+          onChange={e => this.setState({ searchField: e.target.value })}
+        />
         <CardList characters={this.state.characters} />
-        ))}
       </div>
     );
   }
