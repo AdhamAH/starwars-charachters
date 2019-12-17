@@ -18,6 +18,9 @@ class App extends React.Component {
       .then(response => response.json())
       .then(names => this.setState({ characters: names }));
   }
+  handleChange = e => {
+    this.setState({ searchField: e.target.value });
+  };
 
   render() {
     const { characters, searchField } = this.state;
@@ -28,7 +31,7 @@ class App extends React.Component {
       <div className="App">
         <SearchBox
           placeholder="search character"
-          handleChange={e => this.setState({ searchField: e.target.value })}
+          handleChange={this.handleChange}
         />
         <CardList characters={filteredCharacters} />
       </div>
