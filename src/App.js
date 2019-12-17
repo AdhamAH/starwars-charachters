@@ -2,6 +2,7 @@ import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 import { CardList } from "./components/card-list/cards-list.components";
+import { SearchBox } from "./components/search-box/search-box.component";
 
 class App extends React.Component {
   constructor() {
@@ -19,14 +20,17 @@ class App extends React.Component {
   }
 
   render() {
+    const { characters, searchField } = this.state;
+    const filteredCharacters = characters.filter(character =>
+      character.name.toLowerCase().includes(searchField.toLowerCase())
+    );
     return (
       <div className="App">
-        <input
-          type="search"
+        <SearchBox
           placeholder="search character"
-          onChange={e => this.setState({ searchField: e.target.value })}
+          handleChange={e => this.setState({ searchField: e.target.value })}
         />
-        <CardList characters={this.state.characters} />
+        <CardList characters={filteredCharacters} />
       </div>
     );
   }
