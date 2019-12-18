@@ -1,6 +1,7 @@
 import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
+import "./components/search-box/search-box.styles.css";
 import { CardList } from "./components/card-list/cards-list.components";
 import { SearchBox } from "./components/search-box/search-box.component";
 
@@ -18,8 +19,8 @@ class App extends React.Component {
       .then(response => response.json())
       .then(names => this.setState({ characters: names }));
   }
-  handleChange = e => {
-    this.setState({ searchField: e.target.value });
+  handleChange = search => {
+    this.setState({ searchField: search.target.value });
   };
 
   render() {
@@ -28,8 +29,10 @@ class App extends React.Component {
       character.name.toLowerCase().includes(searchField.toLowerCase())
     );
     return (
-      <div className="App">
+      <div>
+        <h1 className="">StarWars Characters</h1>
         <SearchBox
+          className="search"
           placeholder="search character"
           handleChange={this.handleChange}
         />

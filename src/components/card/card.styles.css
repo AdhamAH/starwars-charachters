@@ -1,7 +1,7 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  background-color: #47945e83;
+  background-color: #784794bb;
   border: 1px solid grey;
   border-radius: 5px;
   padding: 25px;
@@ -10,14 +10,17 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  color: rgb(170, 199, 199);
 }
 
 .card-container:hover {
   transform: scale(1.05);
 }
 .images {
-  max-width: 250px;
-  max-height: 325px;
+  max-width: 200px;
+  max-height: 250px;
+  align-self: center;
+  max-height: auto;
 }
 h2 {
   font-size: 1rem;

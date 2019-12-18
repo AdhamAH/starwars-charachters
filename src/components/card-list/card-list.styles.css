@@ -1,7 +1,26 @@
 .card-list {
-  width: 85vw;
+  width: fit-content;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 30px;
+}
+
+@media screen and (min-width: 314px) {
+  .card-list {
+    width: fit-content;
+    grid-template-columns: min-content;
+  }
+}
+@media screen and (min-width: 414px) {
+  .card-list {
+    width: fit-content;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 15px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .card-list {
+    width: fit-content;
+    grid-template-columns: 350px 350px 350px;
+  }
 }
