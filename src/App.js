@@ -4,6 +4,7 @@ import "./App.css";
 import "./components/search-box/search-box.styles.css";
 import { CardList } from "./components/card-list/cards-list.components";
 import { SearchBox } from "./components/search-box/search-box.component";
+import Scroll from "./components/scroll/scroll.component";
 
 class App extends React.Component {
   constructor() {
@@ -36,7 +37,9 @@ class App extends React.Component {
           placeholder="search character"
           handleChange={this.handleChange}
         />
-        <CardList characters={filteredCharacters} />
+        <Scroll>
+          <CardList characters={filteredCharacters} />
+        </Scroll>
       </div>
     );
   }

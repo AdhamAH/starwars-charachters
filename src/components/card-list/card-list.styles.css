@@ -11,7 +11,7 @@
     grid-template-columns: min-content;
   }
 }
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 415px) {
   .card-list {
     width: fit-content;
     grid-template-columns: 2fr 2fr;
