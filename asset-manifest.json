@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/adhamah.github.io/starwars-charachters/static/css/main.ed230ecf.chunk.css",
+    "main.js": "/adhamah.github.io/starwars-charachters/static/js/main.a5ba4002.chunk.js",
+    "main.js.map": "/adhamah.github.io/starwars-charachters/static/js/main.a5ba4002.chunk.js.map",
+    "runtime-main.js": "/adhamah.github.io/starwars-charachters/static/js/runtime-main.806d5d0d.js",
+    "runtime-main.js.map": "/adhamah.github.io/starwars-charachters/static/js/runtime-main.806d5d0d.js.map",
+    "static/js/2.5e771dac.chunk.js": "/adhamah.github.io/starwars-charachters/static/js/2.5e771dac.chunk.js",
+    "static/js/2.5e771dac.chunk.js.map": "/adhamah.github.io/starwars-charachters/static/js/2.5e771dac.chunk.js.map",
+    "index.html": "/adhamah.github.io/starwars-charachters/index.html",
+    "precache-manifest.1e43f0e70a07e492df05bf59025ad3fc.js": "/adhamah.github.io/starwars-charachters/precache-manifest.1e43f0e70a07e492df05bf59025ad3fc.js",
+    "service-worker.js": "/adhamah.github.io/starwars-charachters/service-worker.js",
+    "static/css/main.ed230ecf.chunk.css.map": "/adhamah.github.io/starwars-charachters/static/css/main.ed230ecf.chunk.css.map",
+    "static/js/2.5e771dac.chunk.js.LICENSE": "/adhamah.github.io/starwars-charachters/static/js/2.5e771dac.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.806d5d0d.js",
+    "static/js/2.5e771dac.chunk.js",
+    "static/css/main.ed230ecf.chunk.css",
+    "static/js/main.a5ba4002.chunk.js"
+  ]
+}
