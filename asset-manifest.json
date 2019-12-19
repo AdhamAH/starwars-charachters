@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/starwars-charachters/static/css/main.ed230ecf.chunk.css",
+    "main.css": "/starwars-charachters/static/css/main.8a8d53c7.chunk.css",
     "main.js": "/starwars-charachters/static/js/main.24614576.chunk.js",
     "main.js.map": "/starwars-charachters/static/js/main.24614576.chunk.js.map",
     "runtime-main.js": "/starwars-charachters/static/js/runtime-main.f288f82b.js",
@@ -8,15 +8,15 @@
     "static/js/2.5e771dac.chunk.js": "/starwars-charachters/static/js/2.5e771dac.chunk.js",
     "static/js/2.5e771dac.chunk.js.map": "/starwars-charachters/static/js/2.5e771dac.chunk.js.map",
     "index.html": "/starwars-charachters/index.html",
-    "precache-manifest.e88745253b90301dfaf228b4b8ddd304.js": "/starwars-charachters/precache-manifest.e88745253b90301dfaf228b4b8ddd304.js",
+    "precache-manifest.2f8698f662b7b603197a893ca085bce8.js": "/starwars-charachters/precache-manifest.2f8698f662b7b603197a893ca085bce8.js",
     "service-worker.js": "/starwars-charachters/service-worker.js",
-    "static/css/main.ed230ecf.chunk.css.map": "/starwars-charachters/static/css/main.ed230ecf.chunk.css.map",
+    "static/css/main.8a8d53c7.chunk.css.map": "/starwars-charachters/static/css/main.8a8d53c7.chunk.css.map",
     "static/js/2.5e771dac.chunk.js.LICENSE": "/starwars-charachters/static/js/2.5e771dac.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.f288f82b.js",
     "static/js/2.5e771dac.chunk.js",
-    "static/css/main.ed230ecf.chunk.css",
+    "static/css/main.8a8d53c7.chunk.css",
     "static/js/main.24614576.chunk.js"
   ]
 }
