@@ -2,7 +2,7 @@
   "name": "workspace",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:///AdhamAH.github.io/startwards-characters",
+  "homepage": "https:///adhamah.github.io/startwards-characters",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
